@@ -1,0 +1,4 @@
+.env
+fake_data_generator.py
+.cache
+.DS_Store

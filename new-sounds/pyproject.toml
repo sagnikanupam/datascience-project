@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "new-sounds"
+version = "0.1.0"
+description = "Understanding the genre of songs played on the new sounds radio."
+authors = ["Mahi Shafiullah <mahi@tryalpine.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pylast = "^4.5.0"
+spotipy = "^2.19.0"
+pandas = "^1.4.1"
+numpy = "^1.22.3"
+aiohttp = "^3.8.1"
+black = "^22.1.0"
+tqdm = "^4.63.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
